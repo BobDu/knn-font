@@ -20,8 +20,8 @@ def main():
 	# x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=0)
 	x_train = x.head(30)
 	y_train = y.head(30)
-	x_test = x.tail(10)
-	y_test = y.tail(10)
+	x_test = x.tail(70)
+	y_test = y.tail(70)
 
 	# 标准化
 	# std = StandardScaler()
